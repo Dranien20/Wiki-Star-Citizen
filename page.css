@@ -17,7 +17,14 @@ h2
     
 }
 
-h5 
+.presentation
 {
-    
+    color: black;
+    text-align:center;
+}
+
+footer
+{
+    color: black;
+    text-align:center;
 }
