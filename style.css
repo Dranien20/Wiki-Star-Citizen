@@ -1,7 +1,24 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+     background: blue;
+     height: 200px;
+     width: 100%;
+     margin: 0;
+     padding: 10px;
+}
+
 h1
 {
-    color: black;
-    text-align: center;
+     font-size:30px;
+     font-style:oblique;
+     color: black;
+     font-weight:bolder;
 }
 
 h2 
