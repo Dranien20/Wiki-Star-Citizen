@@ -22,21 +22,35 @@ h1
      text-align: center;
 }
 
-.nav
+ul
 {
-    color: black;
-    text-align: center;
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-li 
+li
 {
-    display: inline;
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #1dd8af;
 }
 
 .active
 {
-    color: black;
     text-decoration: underline;
 }
 
@@ -44,13 +58,6 @@ h2
 {
     color: black;
     text-align: start;
-}
-
-ul 
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .presentation
