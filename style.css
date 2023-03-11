@@ -1,30 +1,28 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: white;
 }
 
 
 header{
     background: lightcyan;
-    height: 110px;
-    width: 97%;
-    margin: 0;
-    padding-left: 1%;
-    padding-right: 0%;
+    width: 100%;
+    padding-bottom: 15px;
     position: fixed;
 }
 
 .logo_SC{
-    padding-top: 5px;
+    padding-top: 8px;
+    padding-left: 30px;
     height: 100px;
-    width: 100px;
+    width: auto;
 }
 
 .title{
     text-align: left;
     font-size: xx-large;
-    margin-left: 22%;
+    margin-left: 485px;
     margin-top: -74px;
     width: 250px;
 }
@@ -86,14 +84,16 @@ li a:hover{
     max-width: 90%;
     background: white;
     padding: 1.5em 2em;
+    margin-top: 480px;
 }
 
 .modal_close{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 9px;
+    right: 23px;
     color: grey;
     text-decoration: none;
+    font-size: 2em;
 }
 
 
