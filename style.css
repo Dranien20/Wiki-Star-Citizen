@@ -1,39 +1,46 @@
 body{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     background-color: blue;
 }
 
+
 header{
-     background: white;
-     height: 150px;
-     width: 100%;
-     margin: 0;
-     padding: 10px;
+    background: lightcyan;
+    height: 110px;
+    width: 97%;
+    margin: 0;
+    padding-left: 1%;
+    padding-right: 0%;
+    position: fixed;
 }
 
-.logo_SC {
+.logo_SC{
+    padding-top: 5px;
     height: 100px;
-    width: auto;
+    width: 100px;
 }
 
-
+.title{
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 22%;
+    margin-top: -74px;
+    width: 250px;
+}
 
 nav{
-	text-align: left;
-        float: left;
-        margin: 15px;
-        padding: 50%;
+    text-align: left;
+    float: right;
+    font-size: large;
+    margin-top: -70px;
+    padding-right: 3%;
 }
 
 ul{
     list-style-type: none;
-    margin: auto;
-    padding: auto;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    margin: 0;
 }
 
 li{
@@ -41,24 +48,20 @@ li{
     display: inline;
 }
 
-li a {
+li a{
     display: block;
-    color: blue;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     border-radius: 5px;
     text-decoration: none;
 }
 
-li a:hover {
-    color: white;
+li a:hover{
+    background-color: white;
 }
 
-.active{
-    text-decoration: underline;
-}
-
-.modal {
+.modal{
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -71,26 +74,32 @@ li a:hover {
     transition: all .4s;
 }
 
-.modal:target {
+.modal:target{
     visibility: visible;
     opacity: 1;
 }
 
-.modal_content {
+.modal_content{
     border-radius: 4px;
     position: relative;
     width: 500px;
     max-width: 90%;
-    background: black;
+    background: white;
     padding: 1.5em 2em;
 }
 
-.modal_close {
+.modal_close{
     position: absolute;
     top: 10px;
     right: 10px;
     color: grey;
     text-decoration: none;
+}
+
+
+
+.page{
+    padding-top: 150px;
 }
 
 h1{
@@ -103,12 +112,68 @@ h1{
 
 h2{
     color: black;
-    text-align: start;
     font-size: x-large;
     text-align: center;
 }
 
-footer{
+h3{
     color: black;
+    text-align: start;
+    font-size: large;
+    text-align: left;
+}
+
+p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: justify;
+}
+
+br{
+    padding-bottom: 10px;
+}
+
+
+
+footer{
+    margin: 0;
+    padding: auto;
     text-align:center;
+    background-color: gray;
+}
+
+h4{
+    color: black;
+    font-size: x-large;
+    text-align: left;
+    padding-top: 20px;
+}
+
+footer nav{
+	text-align: left;
+        float: none;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li{
+    float: left;
+}
+
+footer li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    background-color: lightgray;
 }
