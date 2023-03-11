@@ -1,23 +1,35 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
+    background-color: blue;
 }
 
 header{
-     background: rgba(12, 12, 221, 0.404);
-     height: 100px;
+     background: white;
+     height: 150px;
      width: 100%;
      margin: 0;
      padding: 10px;
 }
 
 .logo_SC {
-    height: 5%;
+    height: 100px;
+    width: auto;
 }
+
+
+
+nav{
+	text-align: left;
+        float: left;
+        margin: 15px;
+        padding: 50%;
+}
+
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -26,9 +38,8 @@ ul{
 
 li{
     float: left;
+    display: inline;
 }
-
-
 
 li a {
     display: block;
@@ -93,12 +104,8 @@ h1{
 h2{
     color: black;
     text-align: start;
-    font-size: medium;
-}
-
-.presentation{
-    color: black;
-    text-align:center;
+    font-size: x-large;
+    text-align: center;
 }
 
 footer{
