@@ -71,7 +71,7 @@ h2{
     color: black;
     font-size: xx-large;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 190px;
 }
 
 h3{
@@ -82,11 +82,21 @@ h3{
     left: 85px;
 }
 
+p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 530px;
+    color: black;
+    text-align: justify;
+    line-height: 2em;
+}
+
+
 .conteneur_paysages{
     max-width: 576px;
     margin: 50px auto;
 }
-
 .i1{
     width: 100%;
     height: 0px;
@@ -97,16 +107,12 @@ h3{
     animation: fondu 15s ease-in-out infinite both;
 }
 
-.i1:hover{
-    animation-play-state: paused;
-}
-
 @keyframes fondu{
-    0%{background-image: url("images/panete_sable");}
-    25%{background-image: url("images/paysage_microtech.jpg");}
-    50%{background-image: url("images/vaisseau_planete.jpg");}
+    0%{background-image: url("images/joueur_microtech.jpg");}
+    25%{background-image: url("images/joueur_planete.png");}
+    50%{background-image: url("images/paysage_microtech.jpg");}
     75%{background-image: url("images/loreville.jpg");}
-    100%{background-image: url("images/joueur_planete.png");}
+    100%{background-image: url("images/planete_sable.jpg");}
 }
 
 .conteneur_vaisseaux{
@@ -120,17 +126,20 @@ h3{
     box-shadow: 0px 0px 10px #777;
     background-color: #EDEDED;
     background-size: contain;
-    animation: fondu 15s ease-in-out infinite both;
+    animation: fondu2 15s ease-in-out infinite both;
 }
 
-.i2:hover{
-    animation-play-state: paused;
+@keyframes fondu2{
+    0%{background-image: url("images/aurora.jpeg");}
+    20%{background-image: url("images/bataille_avec_vaisseau.jpg");}
+    40%{background-image: url("images/cutlass_planete.jpg");}
+    60%{background-image: url("images/vaisseau_base_au_sol.jpg");}
+    80%{background-image: url("images/vaisseau_planete.jpg");}
+    100%{background-image: url("images/vaisseau.jpg");}
 }
-@keyframes fondu{
-    0%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo1.png");}
-    33.33%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo2.png");}
-    66.67%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo3.png");}
-    100%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo1.png");}
+
+.i1:hover, .i2:hover{
+    animation-play-state: paused;
 }
 
 
