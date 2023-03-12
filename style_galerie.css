@@ -131,10 +131,9 @@ p{
 
 @keyframes fondu2{
     0%{background-image: url("images/aurora.jpeg");}
-    20%{background-image: url("images/bataille_avec_vaisseau.jpg");}
-    40%{background-image: url("images/cutlass_planete.jpg");}
-    60%{background-image: url("images/vaisseau_base_au_sol.jpg");}
-    80%{background-image: url("images/vaisseau_planete.jpg");}
+    25%{background-image: url("images/bataille_avec_vaisseau.jpg");}
+    50%{background-image: url("images/vaisseau_base_au_sol.jpg");}
+    75%{background-image: url("images/vaisseau_planete.jpg");}
     100%{background-image: url("images/vaisseau.jpg");}
 }
 
