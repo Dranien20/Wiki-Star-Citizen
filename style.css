@@ -98,6 +98,13 @@ li a:hover{
     font-size: 2em;
 }
 
+.modal_content p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+}
+
 
 
 .page{
