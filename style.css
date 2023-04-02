@@ -27,6 +27,7 @@ header{
     margin-left: 485px;
     margin-top: -74px;
     width: 250px;
+    margin-bottom: 26px;
 }
 
 nav{
@@ -202,6 +203,7 @@ footer{
 footer p{
     color: white;
     margin-bottom: 0;
+    margin-top: 150px;
 }
 
 footer br{
@@ -222,7 +224,7 @@ h4{
     width: auto;
     height: 35px;
     top: 1px;
-    right: 842px;
+    right: 787px;
 }
 
 .logo_github{
@@ -230,11 +232,12 @@ h4{
     width: auto;
     height: 40px;
     top: 4px;
-    right: 745px;
+    right: 688px;
 }
 
 footer section{
     margin-top: 60px;
+    margin-left: 110px;
 }
 
 footer nav{
