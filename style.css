@@ -65,15 +65,29 @@ li a:hover{
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    top: 0; 
-    right: 0;
-    bottom: 0; 
-    left: 0;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(77, 77, 77, .7);
     transition: all .4s;
+  }
+
+.modal_content{
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: white;
+    padding: 1.5em 2em;
+    margin-top: 730px;
+}
+
+.modal_content p{
+    width: auto;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .modal:target{
@@ -88,23 +102,23 @@ li a:hover{
     max-width: 90%;
     background: white;
     padding: 1.5em 2em;
-    margin-top: 480px;
 }
-
+  
 .modal_close{
     position: absolute;
-    top: 9px;
-    right: 23px;
+    top: 17px;
+    right: 28px;
     color: grey;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 40px;
 }
 
-.modal_content p{
-    padding-top: 15px;
-    padding-bottom: 15px;
+h6{
     color: black;
+    font-size: xx-large;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 
@@ -113,7 +127,7 @@ li a:hover{
     padding-top: 54px;
 }
 
-section {
+section{
     margin-top: 80px;
 }
 
@@ -251,57 +265,4 @@ footer li a{
 
 footer li a:hover{
     background-color: lightgray;
-}
-
-
-
-.conteneur_paysages{
-    max-width: 576px;
-    margin: 50px auto;
-}
-
-.i1{
-    width: 100%;
-    height: 0px;
-    padding-top: 75%;
-    box-shadow: 0px 0px 10px #777;
-    background-color: #EDEDED;
-    background-size: contain;
-    animation: fondu 15s ease-in-out infinite both;
-}
-
-.i1:hover{
-    animation-play-state: paused;
-}
-
-@keyframes fondu{
-    0%{background-image: url("images/panete_sable");}
-    25%{background-image: url("images/paysage_microtech.jpg");}
-    50%{background-image: url("images/vaisseau_planete.jpg");}
-    75%{background-image: url("images/loreville.jpg");}
-    100%{background-image: url("images/joueur_planete.png");}
-}
-
-.conteneur_vaisseaux{
-    max-width: 576px;
-    margin: 50px auto;
-}
-.i2{
-    width: 100%;
-    height: 0px;
-    padding-top: 75%;
-    box-shadow: 0px 0px 10px #777;
-    background-color: #EDEDED;
-    background-size: contain;
-    animation: fondu 15s ease-in-out infinite both;
-}
-
-.i2:hover{
-    animation-play-state: paused;
-}
-@keyframes fondu{
-    0%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo1.png");}
-    33.33%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo2.png");}
-    66.67%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo3.png");}
-    100%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo1.png");}
 }
