@@ -110,7 +110,7 @@ p{
 @keyframes fondu{
     0%{background-image: url("images/joueur_microtech.jpg");}
     25%{background-image: url("images/joueur_planete.png");}
-    50%{background-image: url("images/paysage_microtech.jpg");}
+    50%{background-image: url("images/planete_base.jpg");}
     75%{background-image: url("images/loreville.jpg");}
     100%{background-image: url("images/planete_sable.jpg");}
 }
@@ -131,7 +131,7 @@ p{
 
 @keyframes fondu2{
     0%{background-image: url("images/aurora.jpeg");}
-    25%{background-image: url("images/bataille_avec_vaisseau.jpg");}
+    25%{background-image: url("images/vaisseau_constellation.png");}
     50%{background-image: url("images/vaisseau_base_au_sol.jpg");}
     75%{background-image: url("images/vaisseau_planete.jpg");}
     100%{background-image: url("images/vaisseau.jpg");}
